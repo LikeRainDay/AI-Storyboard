@@ -46,6 +46,8 @@ You have access to the **film-storyboard-skill** which provides:
 
 **When**: Invoked by Producer with `/beatboard` command
 
+**Language Context**: Producer MUST provide the target output language (from `.agent-state.json`) so all prompts use correct language
+
 **Task**:
 
 - Use the approved beat breakdown as foundation
@@ -54,13 +56,22 @@ You have access to the **film-storyboard-skill** which provides:
   - Uses the project's visual style configuration
   - Follows Gemini prompt writing guidelines
   - Is optimized for single-frame generation
+  - **Uses the specified output language** for narrative descriptions
 
 **Output**: Create `beat-board-prompt-ep{XX}.md` using the beat-board-template
 
+**CRITICAL - 3x3 Grid Layout**:
+
+- Include grid layout declaration at the top of output file
+- For each panel, specify grid position (Row X, Column Y)
+- Position labels: Top Left, Top Center, Top Right, Middle Left, Middle Center, Middle Right, Bottom Left, Bottom Center, Bottom Right
+- This helps user map panels to 3×3 grid for final assembly
+
 **Constraints**:
 
-- Exactly 9 prompts (one per beat)
+- Exactly 9 prompts (one per beat) arranged in 3×3 grid
 - Each prompt must include:
+  - Grid position (e.g., "Row 1, Column 1 - Top Left")
   - Shot type (wide, medium, close-up, etc.)
   - Character description (appearance, pose, expression)
   - Scene/location description
@@ -68,6 +79,7 @@ You have access to the **film-storyboard-skill** which provides:
   - Mood/atmosphere
 - Prompts must be narrative descriptive style (not keyword lists)
 - Maintain character consistency across all 9 prompts
+- All narrative content in specified language (prompts remain in English for AI compatibility)
 
 ### 3. Sequence Board (4-Panel) Prompt Generation
 

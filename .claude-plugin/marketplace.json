@@ -1,0 +1,36 @@
+{
+    "name": "AI Storyboard Marketplace",
+    "metadata": {
+        "description": "A collection of specialized AI agents skills for film storyboarding, scriptwriting, and animation."
+    },
+    "plugins": [
+        {
+            "name": "film-storyboard-skill",
+            "source": {
+                "source": "relative",
+                "path": "./.claude/skills/film-storyboard-skill"
+            }
+        },
+        {
+            "name": "scriptwriter-skill",
+            "source": {
+                "source": "relative",
+                "path": "./.claude/skills/scriptwriter-skill"
+            }
+        },
+        {
+            "name": "animator-skill",
+            "source": {
+                "source": "relative",
+                "path": "./.claude/skills/animator-skill"
+            }
+        },
+        {
+            "name": "storyboard-review-skill",
+            "source": {
+                "source": "relative",
+                "path": "./.claude/skills/storyboard-review-skill"
+            }
+        }
+    ]
+}

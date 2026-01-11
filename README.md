@@ -130,6 +130,10 @@ EMMA（25 岁，银色齐腰长直发，苍白肤色，紫罗兰色眼睛，
 3. Director 审查一致性
 4. 输出到`outputs/beat-board-prompt-ep01.md`
 
+#### 九宫格 Demo 效果
+
+![九宫格 Demo 效果](images/demo.jpeg)
+
 ### 4. 生成 Sequence Board (4 格)
 
 ```
@@ -187,6 +191,8 @@ digital concept art, painterly style, dramatic atmosphere, detailed environment
 - 3x3 网格，一次性生成 9 个 beats
 - Episode Visual Script 格式
 - Visual Description (80-120 词) + Lighting & Mood (30-50 词)
+
+![九宫格 Demo 效果 (Nano Banner)](images/demo.jpeg)
 
 **Midjourney v6**:
 

@@ -1,5 +1,5 @@
 ---
-name: Film Storyboard Skill
+name: film-storyboard-skill
 description: Use when creating storyboards from scripts, generating visual prompts for beat boards or sequence boards, or converting narrative beats into AI-generated images across platforms (Nano Banner, Midjourney, Gemini)
 version: 1.0.0
 allowed-tools: Read, Write

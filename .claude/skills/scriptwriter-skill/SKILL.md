@@ -1,5 +1,5 @@
 ---
-name: Scriptwriter Skill
+name: scriptwriter-skill
 description: Use when creating episodic scripts, ensuring series continuity, adapting story concepts into visual narratives, or preparing scripts with sufficient beats for storyboarding
 version: 1.0.0
 allowed-tools: Read, Write, Bash(ls:*)

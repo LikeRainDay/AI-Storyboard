@@ -1,5 +1,5 @@
 ---
-name: Storyboard Review Skill
+name: storyboard-review-skill
 description: Use when reviewing storyboard outputs at any production stage (beat breakdown, beat board, sequence board, motion prompts), providing quality assurance feedback, or identifying revision requirements for Director agent
 version: 1.0.0
 allowed-tools: Read

@@ -1,5 +1,5 @@
 ---
-name: Animator Skill
+name: animator-skill
 description: Use when converting static image sequences (sequence boards) into motion prompts for AI video generation platforms (Runway, Pika, SVD), or describing temporal movement for video synthesis
 version: 1.0.0
 allowed-tools: Read, Write
